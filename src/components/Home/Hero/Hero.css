@@ -1,28 +1,4 @@
-.navbar {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
 
-nav {
-    flex: 1;
-    text-align: right;
-}
-
-nav ul {
-    display: inline-block;
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #555;
-}
 
 p {
     color: #555;
@@ -74,7 +50,7 @@ p {
 }
 
 .header .row {
-    margin-top: 70px;
+    /* margin-top: 70px; */
 }
 
 .menu-icon {

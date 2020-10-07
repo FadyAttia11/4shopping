@@ -1,24 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import './App.css'
-import Hero from './components/Home/Hero/Hero'
-import Categories from './components/Home/Categories/Categories'
-import Products from './components/Home/Products/Products'
-import Offer from './components/Home/Offer/Offer'
-import Testimonial from './components/Home/Testimonial/Testimonial'
-import Brands from './components/Home/Brands/Brands'
+
+import Navbar from './components/Home/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
+import Routes from './components/Routes/Routes'
 
 const App = () => {
   return (
-    <div>
-      <Hero />
-      <Categories />
-      <Products />
-      <Offer />
-      <Testimonial />
-      <Brands />
+    <Router>
+      <Navbar />
+      <Routes />
       <Footer />
-    </div>
+    </Router>
   );
 }
 
