@@ -13,11 +13,12 @@ const Navbar = () => {
 
                 <nav>
                     <ul id="menuItems" style={{maxHeight: "0px"}}>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/products">Products</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/product">Product</Link></li>
-                        <li><Link to="/account">Account</Link></li>
+                        <li><Link to="/4shopping/">Home</Link></li>
+                        <li><Link to="/4shopping/products"><span>Best Sellers</span></Link></li>
+                        <li><Link to="/4shopping/product">Offers & Deals</Link></li>
+                        <li><Link to="/4shopping/products">All Products</Link></li>
+                        <li><Link to="/4shopping/about">Visit Us</Link></li>
+                        <li><Link to="/4shopping/account">Login</Link></li>
                     </ul>
                 </nav>
                 <Link to="/cart"><img src={require('../../../img/cart.png')} className="cart-icon"/></Link>

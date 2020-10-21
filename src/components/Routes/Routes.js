@@ -11,10 +11,11 @@ const Routes = () => {
 
     return (
         <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/products" component={Products} />
-            <Route path="/product" component={Product} />
-            <Route path="/account" component={Account} />
+            <Route exact path="/4shopping/" component={Home} />
+            <Route path="/4shopping/products" component={Products} />
+            <Route path="/4shopping/product" component={Product} />
+            <Route path="/4shopping/account" component={Account} />
+            <Route path="/4shopping/cart" component={Cart} />
         </Switch>
     )
 }
